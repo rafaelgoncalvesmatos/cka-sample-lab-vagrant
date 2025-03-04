@@ -2,11 +2,35 @@
 
 ````
 configuracoes = {
-  "testeautomation" => {
-    "images"  => "ubuntu/jammy64",
+  "control1" => {
+    "images"   => "ubuntu/jammy64",
     "memory"  => "4048",
     "cpu"     => "4",
-    "ip"      => "220"
+    "ip"      => "101"
+  },
+  "control2" => {
+    "images"   => "ubuntu/jammy64",
+    "memory"  => "4048",
+    "cpu"     => "4",
+    "ip"      => "101"
+  },
+  "control3" => {
+    "images"   => "ubuntu/jammy64",
+    "memory"  => "4048",
+    "cpu"     => "4",
+    "ip"      => "101"
+  },
+  "worker1" => {
+    "images"   => "ubuntu/jammy64",
+    "memory"  => "6048",
+    "cpu"     => "4",
+    "ip"      => "102"
+  },
+  "worker2" => {
+    "images"   => "ubuntu/jammy64",
+    "memory"  => "6048",
+    "cpu"     => "4",
+    "ip"      => "103"
   },
 }
 
